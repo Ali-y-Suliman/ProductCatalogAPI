@@ -29,7 +29,7 @@
 
 1. **Clone the repository**
 ```
-//
+https://github.com/Ali-y-Suliman/ProductCatalogAPI.git
 ```
 2. **Restore packages**
 ```
@@ -59,6 +59,7 @@ dotnet run
 | PUT    | `/api/Products/{id}` | Update a product |
 | DELETE | `/api/Products/{id}` | Delete a product |
 | GET    | `/api/Categories` | Get all Categories (paginated) |
+| GET    | `GET/api/Categories/withProductCount` | Get all Categories with ProductCount |
 | GET    | `/api/Categories/{id}` | Get a specific category |
 | POST   | `/api/Categories` | Create a new category |
 | PUT    | `/api/Categories/{id}` | Update a category |
